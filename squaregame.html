@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Square game</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+    	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/game.css">
+        <script type="text/javascript" src="Js/game_2.js"></script>
+	</head>
+	<body>
+		<div class="button" id="button">
+			<div>
+				<a href="./index.html" id="top"><span id="top2"> Back to Home </span></a>
+			</div>
+		</div>
+		<br><br><br>
+        <div class="containerBox">
+		    <fieldset class="Gamebox">
+			    <legend><h1>Control</h1></legend>
+                <div class="squarbox_fieldset"></div>
+			        Number of box: 
+			        <input type="text" name="numbox" id="numbox">
+			        <select name="color" id = "color">
+  				        <option value="purple">Purple</option>
+  				        <option value="coral">Orange</option>
+  				        <option value="teal">Green</option>
+			        </select>
+			        <button id="start">Start</button>
+			        <div id="timerClock"> 
+                        Timer : 
+				        <div id="clock"></div>
+			        </div>
+                </div>
+		    </fieldset>
+
+		    <div id="game-container">
+			    <div id="game-layer"></div>
+		    </div>
+	    </div>
+	</body>
+</html>
