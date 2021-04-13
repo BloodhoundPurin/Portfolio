@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Blogger</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" rel="stylesheet">
+	<link rel='stylesheet' type='text/css' media='screen' href='css/blog.css'>
+	<script type="text/javascript" src="Js/Post.js"></script>
+</head>
+<body>
+    <div class="button" id="button">
+        <div>
+            <a href="./index.html" id="top"><span id="top2"> Back to Home </span></a>
+        </div>
+    </div>
+	<br><br><br><br>
+	<div class="postpage">
+        <h1>POST</h1>
+		<div id="topic1"></div>
+
+		<div id="comment1"></div>
+
+		<div id="comment2"></div>
+
+		<textarea name="text1" id="text1"></textarea>
+		<br><br><br>
+
+		<div class="button">
+			<button type="button" id="post" onclick="postFunction()">Post</button>
+			<button type="button" id="reset" onclick="clearFunction()">Reset</button>
+		</div>
+	</div>
+</body>
+</html>
