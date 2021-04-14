@@ -184,14 +184,14 @@ P{
         height: 250px;
     }
     #Pape{
-        width: 100px;
+        width: 200px;
     }
     #Draft{
-        width: 150px;
-        height: 30px;
+        width: 250px;
+        height: 130px;
     }
     #Draw{
-        width: 50px;
-        height: 10px;
+        width: 200px;
+        height: 130px;
     }
 }
