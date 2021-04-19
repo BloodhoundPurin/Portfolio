@@ -188,6 +188,9 @@ hr{
 #Pr{
     width: 256px;
 }
+#Lr{
+    width: 256px;
+}
 
 .container {
     display: flex;
@@ -590,7 +593,10 @@ div[class*=sub] {
     }
     
     #Web{
-        width: 284px;
+        width: 252px;
+    }
+    #Lr{
+        width: 252px;
     }
 
     .Interested{
